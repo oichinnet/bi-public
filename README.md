@@ -22,7 +22,7 @@ Sử dụng nút bấm "Gợi ý" hay "Ví dụ", để sử dụng API hiển t
 #### 2.2.2 - Ôn từ cũ
 Danh sách hiển thị, là sự pha trộn random các loại sau:  
 1. Từ mới học, ôn ít
-2. Từ sai: Sai nhiều, vừa sai
+2. Từ sai: Sai nhiều, vừa sai.  
 Ở phần ôn luyện, kết quả khi ôn luyện 1 từ sẽ được lưu vào database, làm cơ sở để hiển thị danh sách cần ôn sau này: ('write_prac' ++ )
 1. Nhập sai > 'learn_more' = 1 && 'write_false' ++ ('learn_more' để xác định từ vừa học bị sai; 'write_false' để sau này tính tỉ lệ sai / số lần học ('write_prac').
 2. Nhập đúng > 'learn_more' = 0
