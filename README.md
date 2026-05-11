@@ -19,7 +19,7 @@ Có 2 loại từ cần ôn chính:
 #### 2.2.1 - Ôn từ vừa học
 Làm đúng 5 lần thì từ đó sẽ được chuyển sang phần ôn luyện.  
 Sử dụng nút bấm "Gợi ý" hay "Ví dụ", để sử dụng API hiển thị các câu ví dụ liên quan, chứa từ cần học
-#### 2.2.1 - Ôn từ vừa học
+#### 2.2.2 - Ôn từ cũ
 Danh sách hiển thị, là sự pha trộn random các loại sau:  
 1. Từ mới học, ôn ít
 2. Từ sai: Sai nhiều, vừa sai
