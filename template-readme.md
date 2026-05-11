@@ -226,6 +226,103 @@ Mọi đóng góp đều được hoan nghênh!
 5. Tạo Pull Request
 
 ---
+# 📋 Changelog
+
+Tất cả thay đổi đáng chú ý của dự án sẽ được ghi lại tại đây.
+
+Định dạng dựa theo [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+và dự án tuân theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [Unreleased]
+
+### Added
+- Tính năng đang phát triển, chưa release
+
+---
+
+## [1.2.0] - 2025-05-10
+
+### Added
+- ✨ Thêm hệ thống tự động gắn tag sản phẩm
+- ✨ Thêm trang so sánh sản phẩm
+- ✨ Tích hợp Google Analytics 4
+
+### Changed
+- 🔧 Tối ưu query related products từ ~20s xuống còn ~0.4s
+- 🔧 Cập nhật giao diện trang chi tiết sản phẩm
+
+### Fixed
+- 🐛 Sửa lỗi 404 trên route POST-only bằng cách thêm GET redirect
+- 🐛 Sửa lỗi TINYINT overflow ở cột `sort_order`
+
+### Removed
+- 🗑️ Xóa module báo cáo cũ không còn sử dụng
+
+---
+
+## [1.1.0] - 2025-04-01
+
+### Added
+- ✨ Thêm chức năng quản lý danh mục sản phẩm
+- ✨ Thêm export Excel cho báo cáo doanh thu
+- ✨ Hỗ trợ upload nhiều ảnh sản phẩm cùng lúc
+
+### Changed
+- 🔧 Refactor `AdminController` theo pattern `$clearActions`
+- 🔧 Chuyển từ session-based auth sang Laravel Sanctum
+
+### Fixed
+- 🐛 Sửa lỗi phân trang bị reset khi filter
+- 🐛 Sửa lỗi ảnh không hiển thị trên mobile
+
+### Security
+- 🔒 Vá lỗ hổng XSS ở form tìm kiếm
+- 🔒 Thêm rate limiting cho API endpoint
+
+---
+
+## [1.0.1] - 2025-03-15
+
+### Fixed
+- 🐛 Sửa lỗi không gửi được email xác nhận đơn hàng
+- 🐛 Sửa lỗi giá hiển thị sai khi áp dụng mã giảm giá
+
+---
+
+## [1.0.0] - 2025-03-01
+
+### Added
+- 🎉 Ra mắt phiên bản đầu tiên
+- ✨ Quản lý sản phẩm (CRUD)
+- ✨ Quản lý đơn hàng
+- ✨ Hệ thống đăng nhập admin
+- ✨ Trang hiển thị sản phẩm ngoài frontend
+- ✨ Tích hợp thanh toán VNPay
+
+---
+
+## Chú thích các loại thay đổi
+
+| Nhãn | Ý nghĩa |
+|------|---------|
+| `Added` | Tính năng mới được thêm vào |
+| `Changed` | Thay đổi tính năng đã có |
+| `Deprecated` | Tính năng sắp bị xóa trong tương lai |
+| `Removed` | Tính năng đã bị xóa |
+| `Fixed` | Sửa lỗi |
+| `Security` | Vá lỗ hổng bảo mật |
+
+---
+
+[Unreleased]: https://github.com/username/ten-du-an/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/username/ten-du-an/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/username/ten-du-an/compare/v1.0.1...v1.1.0
+[1.0.1]: https://github.com/username/ten-du-an/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/username/ten-du-an/releases/tag/v1.0.0
+
+---
 
 ## 📄 License
 
